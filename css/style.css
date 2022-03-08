@@ -149,7 +149,6 @@ header nav .wrap ul li a img{
 
 .slide .txt_part {
     color: #fff;
-    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -479,13 +478,14 @@ header nav .wrap ul li a img{
 /*section#blog*/
 #blog {
     width: 100%;
-    height: 380px;
+    height: 460px;
     background-image: url(../img/section_deco_left_01.png), url("../img/section_deco_right_01.png");
     background-repeat: no-repeat;
     background-position: 0% 50%, 100% 100%;
     background-attachment: fixed;
     background-size: auto 245px;
-    margin: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 #blog .wrap {
     width: 1200px;
@@ -493,8 +493,8 @@ header nav .wrap ul li a img{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
 }
+
 #blog .wrap .left {
     width: calc(100% / 4 - 20px);
     margin: 0 10px;
